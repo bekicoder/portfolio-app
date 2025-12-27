@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-
+import profilePic from "../assets/Profilepic.jpg";
 export default function Herosection() {
   const texts = ["Full Stack Developer","Coffee & Code Addict", "Fast learner", "PERN Stack Developer","UI/UX Designer"];
   const textAnimate = useRef();
@@ -67,7 +67,7 @@ export default function Herosection() {
       <div className="flex flex-1 px-10 justify-center">
         <img
           className="rounded-full max-w-[30rem] flex-1 w-full max-md:max-w-sm"
-          src="./src/assets/Profilepic.jpg"
+          src={profilePic}
         />
       </div>
     </div>

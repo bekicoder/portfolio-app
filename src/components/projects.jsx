@@ -1,13 +1,13 @@
 function Projects() {
     const projectList = [
         {
-          name: "Ella Kichin Caffe", img: "./public/ella_cafe_desktop.jpg", description: "This website is designed to simplify hotel operations and improve customer service by allowing guests to order their desired meals from anywhere, quickly and conveniently.",linkurl:"https://ella-cafe.vercel.app/"},
+          name: "Ella Kichin Caffe", img: "/ella_cafe_desktop.jpg", description: "This website is designed to simplify hotel operations and improve customer service by allowing guests to order their desired meals from anywhere, quickly and conveniently.",linkurl:"https://ella-cafe.vercel.app/"},
         { 
-          name: "Hossana Bus", img: "./public/hossanaBus_desktop.jpg", description: "this website mainly designed to improve customer service my enabling customers to buy bus tiket from any where from thier desiered bus service provider and digtlizing tradtional bus tiket buying process ",linkurl:"https://hossana-bus.vercel.app/" },
+          name: "Hossana Bus", img: "/hossanaBus_desktop.jpg", description: "this website mainly designed to improve customer service my enabling customers to buy bus tiket from any where from thier desiered bus service provider and digtlizing tradtional bus tiket buying process ",linkurl:"https://hossana-bus.vercel.app/" },
         { 
-          name: 'Albert Academy', img: "./public/albert_academy_desktop.jpg", description: "This website is designed to support school activities and monitor students by providing secure chat groups and clubs for study discussions, while allowing students to track their test results safely under school supervision.",linkurl: "https://albert-academy-school.vercel.app/"},
+          name: 'Albert Academy', img: "/albert_academy_desktop.jpg", description: "This website is designed to support school activities and monitor students by providing secure chat groups and clubs for study discussions, while allowing students to track their test results safely under school supervision.",linkurl: "https://albert-academy-school.vercel.app/"},
         { 
-          name: "Derash", img: './public/derash_desktop.jpg', description: "This website is designed to help organizations communicate with clients securely and efficiently, with features specifically focused on improving the organization–client relationship.",linkurl:"https://derash-chat.vercel.app/"}
+          name: "Derash", img: '/derash_desktop.jpg', description: "This website is designed to help organizations communicate with clients securely and efficiently, with features specifically focused on improving the organization–client relationship.",linkurl:"https://derash-chat.vercel.app/"}
     ]
 
     return (
