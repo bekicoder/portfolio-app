@@ -1,0 +1,71 @@
+:root{
+  background-image: linear-gradient(270deg, #1b1429, #140f23);
+  scroll-behavior: smooth;
+}
+/* Your custom CSS must be below here */
+.gestureAnimate {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  animation: gesture 2s linear infinite;
+  transform-origin: bottom right;
+}
+
+.scroll-offset {
+  scroll-margin-top: 100px;
+}
+#tools{
+  scroll-margin-top: 130px;
+}
+@keyframes gesture {
+  0% { transform: rotate(0deg); }
+  10%   { transform: rotate(30deg); }
+  20%   { transform: rotate(0deg); }
+  30%   { transform: rotate(30deg); }
+  40%   { transform: rotate(0deg); }
+  50%   { transform: rotate(30deg); }
+  60%   { transform: rotate(0deg); }
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.moonAnimate{
+  animation:rotateMoon;
+  animation-timeline: view();
+}
+
+@keyframes rotateMoon{
+  from{
+    transform: rotate(0deg));
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.star1 {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 1px white;
+  animation: shineStars 3s infinite alternate ease-in-out;
+}
+@keyframes shineStars {
+  0% {
+    box-shadow: 0 0 4px 1px white;
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  50% {
+   box-shadow: 0 0 8px 2px white;
+   transform: scale(1);
+   opacity:1;
+  }
+  100% {
+    box-shadow: 0 0 4px 1px white;
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+}
