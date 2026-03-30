@@ -14,7 +14,7 @@ export default function Footer() {
                 <a>
                     <i className="fab fa-facebook"></i>
                 </a>
-                <a>
+                <a href="https://www.upwork.com/freelancers/~016615759a077a2827">
                     <i className="fab fa-upwork"></i>
                 </a>
 
