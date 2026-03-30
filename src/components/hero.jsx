@@ -66,7 +66,7 @@ export default function Herosection() {
 
       <div className="flex flex-1 px-10 justify-center">
         <img
-          className="rounded-full max-w-[30rem] flex-1 w-full max-md:max-w-sm"
+          className="rounded-full max-w-[30rem] w-full max-md:max-w-sm flex-none aspect-square min-[768px]:w-72 min-[768px]:h-72 min-[876px]:w-96 min-[876px]:h-96"
           src={profilePic}
         />
       </div>

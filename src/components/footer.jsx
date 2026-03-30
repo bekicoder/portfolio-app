@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <h1 className="text-3xl text-center mt-28 text-white font-bold">Contact <span className="!text-[#1fff00]">Me</span></h1>
             <div className="text-white flex justify-center mt-16 text-4xl gap-6">
-                <a>
+                <a href="https://github.com/bekicoder">
                     <i className="fab fa-github"></i>
                 </a>
                 <a>
