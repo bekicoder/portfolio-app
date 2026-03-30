@@ -8,12 +8,12 @@ export default function Footer() {
                 <a href="https://github.com/bekicoder">
                     <i className="fab fa-github"></i>
                 </a>
-                <a>
+                <a href="https://www.linkedin.com/in/bereket-girma-8037163bb/">
                     <i className="fab fa-linkedin"></i>
                 </a>
-                <a>
+                {/*<a>
                     <i className="fab fa-facebook"></i>
-                </a>
+                </a>*/}
                 <a href="https://www.upwork.com/freelancers/~016615759a077a2827">
                     <i className="fab fa-upwork"></i>
                 </a>
