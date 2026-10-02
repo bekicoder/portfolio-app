@@ -26,4 +26,9 @@ export default function Footer() {
             </div>
 
             <div className="w-full text-center text-white mt-28 mb-7 !font-normal flex flex-col gap-10">
-                <h1>DEVELOPED BY ❤️
+                <h1>DEVELOPED BY ❤️ BEREKET GIRMA</h1>
+                <h1>&copy; All Rights Reserved. {date}</h1>
+            </div>
+        </footer>
+    )
+}
